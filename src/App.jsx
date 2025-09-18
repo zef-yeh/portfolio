@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import PixelBlast from './components/PixelBlast'
+import { FaGithub } from "react-icons/fa";
 
 
 function App() {
@@ -22,17 +23,24 @@ function App() {
             welcome to my website
           </h1>
           <h2 className="text-2xl text-gray-300">
-            seth yeh
+            my name is seth yeh i like making stuff
           </h2>
         </div>
       </section>
 
       <section 
-        id="about"
+        id="stuff"
         className="flex flex-col justify-center items-center h-screen pt-24 text-center"
       >
-        <h1>about me</h1>
-        <p>i like stuff</p>
+        <h1>heres my stuff</h1>
+          <a 
+            href="https://github.com/zef-yeh" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-gray-300 hover:text-white transition-colors duration-300 mt-6"
+          >
+            <FaGithub size={60} />
+          </a>
         
       </section>
 
