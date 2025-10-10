@@ -23,7 +23,7 @@ function App() {
             welcome to my website
           </h1>
           <h2 className="text-2xl text-gray-300">
-            my name is seth yeh i like making stuff
+            my name is seth yeh
           </h2>
         </div>
       </section>
